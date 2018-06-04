@@ -1,0 +1,333 @@
+/* pengaturan body*/
+body {
+	background-color 	: grey;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size			: 12px;
+}
+
+.btn-group.open .dropdown-toggle {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus {
+  background-color: #26A81B ;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.navbar-header 
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.dropdown ul.sub-menu li .active{
+  color: #26A81B ;
+  padding-left: 0;
+}
+.fa-angle-down{
+  padding-left: 5px; 
+}
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  -moz-animation: fadeInUp 400ms;
+  -ms-animation: fadeInUp 400ms;
+  -o-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+ul.sub-menu {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: rgba(195, 195, 195, 0.71);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 220px;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	display: none;
+	z-index: 999;
+}
+
+.dropdown ul.sub-menu li .active{
+  color: #26A81B ;
+  padding-left: 0;
+}
+
+
+.navbar-nav li ul.sub-menu li{
+  padding: 10px 20px 0 ;
+}
+
+.navbar-nav li ul.sub-menu li:last-child{
+  padding-bottom: 20px;
+}
+
+.navbar-nav li ul.sub-menu li a{
+  color: #3E3E3E;
+}
+
+.navbar-nav li ul.sub-menu li a:hover{
+    color: #26A81B ;
+}
+
+.fa-angle-down{
+  padding-left: 5px; 
+}
+/* pengaturan layout utama */
+#layout {
+	background			: #fff;
+	width 				: 98%;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 2px;
+}
+#header{
+	width 				: 100%;
+	height 				: 130px;
+	background-color	: #02a2d8;
+	position 			: relative;
+}
+.header {
+	width				: 100%;
+	height				: 130px;
+}
+
+
+
+/*pengaturan menu*/
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: maroon;
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: left;
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: #d4d4d4;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: maroon;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #3C4042;
+}
+
+
+/*pengaturan runingtext*/
+#runningtext{
+	width 				: 100%;
+	height				: 25px;
+	padding-top  		: 7px;
+	margin				: 5px 0 5px 0;
+	background-color 	: black;
+	color				: white;
+	position			: relative;
+}
+
+
+
+/*pengaturan isi*/
+#isi{
+	padding 			: 5px;
+	width				: 80%;
+	height				: auto;
+	background-color 	: #ba7584;
+	position 			: relative;
+	margin-top			: 5px;
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color	: #bc9d64;
+	width				: 99%;
+	height				: 150px;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+	float				: left;
+	height				: 140px;
+	width 				: 150px;
+	margin-right		: 2px;
+	margin-top 			: 2px;
+	padding 			: 1px;
+	border 				: 1px solid #dddddd;
+}
+/*pengaturan heading2 "Judul" */
+.isiposting h2 {
+	font-size			: 20px;
+	font-weight 		: bold;
+	color 				: #ffffff;
+	margin-top			: 4px;
+	margin-bottom		: 3px;
+}
+/*pengaturan anchor atau link yang ada di isiposting */
+.isiposting a{
+	text-decoration		: none;
+}
+.isiposting a:hover{
+	color				: yellow;
+}
+
+
+#sidebar{
+	padding 			: 1px;
+	width				: 19%;
+	background-color	: #d3beaa;
+	position 			: relative;
+	float				: right;
+	/*memberikan garis putus-putus*/
+	border-style		: dotted;
+	border-width		: 1px;
+}
+/*pengaturan widget sidebar*/
+.widged{
+	width				: 99%;
+	background 			: #ffffff;
+	border-top 			: 1px solid #DFDFDF;
+	border-bottom		: 1px solid #DFDFDF;
+	border-right  		: 1px solid #DFDFDF;
+	border-left			: 1px solid #DFDFDF;
+	font-size			: 100%;
+	margin 				: 0px 0px 5px 0px;
+}
+/*pengaturan ukuran iklan dg gambar pada widged*/
+.gambariklan{
+	width 				: 99%;
+	height				: 150px;
+}
+/*pengaturan huruf judul widged*/
+.judulwidged{
+	background 			: #d74006;
+	padding 			: 5px 10px 5px 10px;
+	margin 				: 0px 0px 0px 0px;
+	text-align			: center;
+	color				: white;
+	font-weight			: bold;
+	font-size			: 15px;
+	margin-bottom		: 5px;
+}
+.widged ul {
+	margin 				: 0px 0px 0px 0px;
+	padding 			: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.widged li {
+	padding 			: 0px 0px 0px 0px; 		/*top right bottom left*/
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: #333333;
+}
+.widged li a {
+	color 				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration		: none;
+	display  			: block;
+	margin-bottom		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color 				: blue;
+}
+
+#footer{
+	width 				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
+
+
+.isipostingall {
+	background-color	: #bc9d64;
+	width				: 98%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+.isipostingall h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight 		: bold;
+}
+.gambarposting1 {
+	width				: 230px;
+	height				: 250px;
+	float				: right;
+	margin				: 10px 5px 5px 10px;
+}
+
+
+.profil {
+	width				: 200px;
+	height				: 250px;
+	display				: block;
+	float				: right;
+	padding-right		: 5px;
+}
+.profil h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight 		: bold;
+}
+
+
+#kontak {
+	padding				: 5px;
+	width				: 99%;
+	height				: auto;
+	background-color	: white;
+	position			: relative;
+	margin				: auto;
+	font-size			: 20px;
+}
+.kontak {
+	background-color	: none;
+	width				: 100%;
+	height				: auto;
+	margin-bottom		: 5px;
+}
+.kontak h2 {
+	background-color	: maroon;
+	height				: 40px;
+	color				: white;
+	text-align			: center;
+	padding-top			: 4px;
+	padding-bottom 		: 4px;
+}
+.tablekontak {
+	color				: maroon;
+	padding-left		: 20px;	
+}
+.kolom1 {
+	width				: 20%x;	
+}
+.kolom2 {
+	width				: 80%;
+}
